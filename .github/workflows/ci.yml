@@ -1,6 +1,6 @@
 name: CI
 
-on: push
+on: [push, workflow_dispatch]
 
 env:
   ANDROID_NDK_VERSION: r25b
